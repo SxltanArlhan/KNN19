@@ -50,7 +50,7 @@ body {
 
 /* Centering image manually */
 .center-img img {
-    display: ;
+    display: block;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -64,7 +64,7 @@ body {
 # ---------------------------------------------------------
 st.markdown("<h1 class='title-glow'>คนที่หล่อขนาดนี้เป็นของคุณละนะ💖</h1>", unsafe_allow_html=True)
 
-st.write("<div class='center-img'>", unsafe_allow_html=True)
+st.write("<div class=''>", unsafe_allow_html=True)
 st.image("./img/pro.jpg", width=330 )
 st.write("</div>", unsafe_allow_html=True)
 
