@@ -52,8 +52,8 @@ body {
 .center-img img {
     display: block;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: ;
+    margin-right: ;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -62,7 +62,6 @@ body {
 # ---------------------------------------------------------
 # TITLE + PROFILE CENTERED
 # ---------------------------------------------------------
-st.set_page_config( layout="centered")
 st.markdown("<h1 class='title-glow'>คนที่หล่อขนาดนี้เป็นของคุณละนะ💖</h1>", unsafe_allow_html=True)
 
 st.write("<div class='center-img'>", unsafe_allow_html=True)
