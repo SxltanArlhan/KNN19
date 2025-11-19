@@ -61,13 +61,14 @@ body {
 # ---------------------------------------------------------
 # TITLE + PROFILE CENTERED
 # ---------------------------------------------------------
-st.markdown("""
-<div style="text-align:center;">
-    <h1 class='title-glow'>คนที่หล่อขนาดนี้เป็นของคุณละนะ💖</h1>
-    <img src="./img/pro.jpg" width="330" style="margin-top:20px; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.25);">
-    <h3 style="color:#4a0072; margin-top:15px;">664230022 นายพชรพล เนตรสุวรรณ</h3>
-</div>
-""", unsafe_allow_html=True)
+st.markdown("<h1 class='title-glow'>คนที่หล่อขนาดนี้เป็นของคุณละนะ💖</h1>", unsafe_allow_html=True)
+
+st.write("<div class='center-img'>", unsafe_allow_html=True)
+st.image("./img/pro.jpg", width=330)
+st.write("</div>", unsafe_allow_html=True)
+
+st.markdown("<h3 style='text-align:center; color:#4a0072;'>664230022 นายพชรพล เนตรสุวรรณ</h3>", unsafe_allow_html=True)
+st.markdown("---")
 
 
 # ---------------------------------------------------------
