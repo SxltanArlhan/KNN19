@@ -47,7 +47,7 @@ body {
 
 st.markdown("<h1 class='title-glow'>คนที่หล่อขนาดนี้เป็นของคุณละนะ💖</h1>", unsafe_allow_html=True)
 st.header('664230022 นายพชรพล เนตรสุวรรณ')
-st.image("./img/pro.jpg", width=350 , layout="centered")
+st.image("./img/pro.jpg", width=350)
 
 col1, col2, col3 = st.columns(3)
 
