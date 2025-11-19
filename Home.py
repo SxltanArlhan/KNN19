@@ -51,6 +51,7 @@ body {
 /* Centering image manually */
 .center-img img {
     display: block;
+    justify-self: center;
     margin-left: auto;
     margin-right: auto;
 }
