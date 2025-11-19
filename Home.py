@@ -5,7 +5,58 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # ---------------- CUSTOM CSS ----------------
+st.markdown("""
+<style>
 
+html, body, [class*="css"] {
+    font-family: "Prompt", sans-serif;
+}
+
+/* พื้นหลัง Gradient */
+body {
+    background: linear-gradient(135deg, #ffe6e6, #e0c3fc, #8ec5fc);
+}
+
+/* กล่อง Card */
+.card {
+    background: rgba(255,255,255,0.8);
+    padding: 22px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 16px 30px rgba(0,0,0,0.25);
+}
+
+/* Title Glow */
+.title-glow {
+    font-size: 45px !important;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 0 10px #ff61d8, 0 0 20px #ff61d8, 0 0 30px #ff61d8;
+    text-align: center;
+    margin-top: -30px;
+}
+
+/* Sub-header under images */
+.sub-header {
+    font-size: 22px;
+    color: #6d097b;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Centering image manually */
+.center-img img {
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+""", unsafe_allow_html=True)
 
 
 # ---------------------------------------------------------
@@ -13,9 +64,7 @@ import matplotlib.pyplot as plt
 # ---------------------------------------------------------
 st.markdown("<h1 class='title-glow'>คนที่หล่อขนาดนี้เป็นของคุณละนะ💖</h1>", unsafe_allow_html=True)
 
-st.write("<div class='center-img'>", unsafe_allow_html=True)
-st.image("./img/pro.jpg", width=330 )
-st.write("</div>", unsafe_allow_html=True)
+st.image("./img/pro.jpg")
 
 st.markdown("<h3 style='text-align:center; color:#4a0072;'>664230022 นายพชรพล เนตรสุวรรณ</h3>", unsafe_allow_html=True)
 st.markdown("---")
