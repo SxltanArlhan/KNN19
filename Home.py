@@ -45,12 +45,10 @@ body {
 </style>
 """, unsafe_allow_html=True)
 
-# ----------- TITLE -----------
 st.markdown("<h1 class='title-glow'>คนที่หล่อขนาดนี้เป็นของคุณละนะ💖</h1>", unsafe_allow_html=True)
 st.header('664230022 นายพชรพล เนตรสุวรรณ')
 st.image("./img/pro.jpg", width=350)
 
-# ------------- COLUMNS --------------
 col1, col2, col3 = st.columns(3)
 
 with col1:
@@ -67,3 +65,11 @@ with col3:
     st.markdown("<p class='sub-header'>Setosa</p>", unsafe_allow_html=True)
     st.image("./img/iris3.jpg", use_column_width=True)
     st.markdown("</div>", unsafe_allow_html=True)
+
+html_7 = """
+<div style="background-color:#EC7063;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<center><h5>สถิติข้อมูลดอกไม้</h5></center>
+</div>
+"""
+st.markdown(html_7, unsafe_allow_html=True)
+st.markdown("")
