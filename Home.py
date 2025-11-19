@@ -54,7 +54,7 @@ st.image("./img/pro.jpg", width=350)
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.markdown("<div class='card'>", unsafe_allow_html=True)
+    st.markdown("<div class='card'<p class='sub-header'>Versicolor</p>>", unsafe_allow_html=True)
     st.markdown("<p class='sub-header'>Versicolor</p>", unsafe_allow_html=True)
     st.image("./img/iris1.jpg", use_column_width=True)
     st.markdown("</div>", unsafe_allow_html=True)
