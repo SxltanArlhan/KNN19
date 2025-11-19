@@ -46,7 +46,7 @@ body {
 """, unsafe_allow_html=True)
 
 # ----------- TITLE -----------
-st.markdown("<h1 class='title-glow'>คนที่หล่อขนาดนี้เป็นของคุณละนะ 💖</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='title-glow'>คนที่หล่อขนาดนี้เป็นของคุณละนะ💖</h1>", unsafe_allow_html=True)
 st.header('664230022 นายพชรพล เนตรสุวรรณ')
 st.image("./img/pro.jpg", width=350)
 
@@ -56,17 +56,17 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.markdown("<div class='card'>", unsafe_allow_html=True)
     st.markdown("<p class='sub-header'>Versicolor</p>", unsafe_allow_html=True)
-    st.image("./img/iris1.jpg")
+    st.image("./img/iris1.jpg", use_column_width=True)
     st.markdown("</div>", unsafe_allow_html=True)
 
 with col2:
     st.markdown("<div class='card'>", unsafe_allow_html=True)
     st.markdown("<p class='sub-header'>Virginica</p>", unsafe_allow_html=True)
-    st.image("./img/iris2.jpg")
+    st.image("./img/iris2.jpg", use_column_width=True)
     st.markdown("</div>", unsafe_allow_html=True)
 
 with col3:
     st.markdown("<div class='card'>", unsafe_allow_html=True)
     st.markdown("<p class='sub-header'>Setosa</p>", unsafe_allow_html=True)
-    st.image("./img/iris3.jpg")
+    st.image("./img/iris3.jpg", use_column_width=True)
     st.markdown("</div>", unsafe_allow_html=True)
